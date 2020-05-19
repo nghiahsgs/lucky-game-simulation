@@ -74,7 +74,7 @@ def play_each_day():
             profit=my_money-1000
             return profit
         
-        if my_money< 995:
+        if my_money< 990:
             #print(list_money)
             #input('fail and stop')
             profit=my_money-1000
@@ -84,9 +84,10 @@ def play_each_day():
     return profit
 
 list_profit=[]
-for iday in range(365):
+for iday in range(1000):
     profit=play_each_day()
     list_profit.append(profit)
+print('sum list profit',sum(list_profit))
 '''
 Chien luoc choi nhu sau:
     quan sat 10 phien dau:
