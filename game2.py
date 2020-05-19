@@ -37,6 +37,11 @@ for i_phien in range(1,100):
 
 print('min_money:',min(list_money))
 print('max_money:',max(list_money))
+print('list_money',list_money)
 
-
-
+'''
+Chien luoc choi nhu sau:
+    quan sat 10 phien dau:
+    tien lon hon 1000 chiem 8 phien: choi tiep cat lo va lai 5% => chi thoa man dki nay moi choi
+    tien nho hon 1000 chien 7-8 phien: stop => nhieu cau sole
+'''
